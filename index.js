@@ -6,5 +6,6 @@ document
     for (let i = 0; i <= 4; i++) {
       document.querySelectorAll("i")[i].style.color = "white";
       document.querySelectorAll(".notification")[i].classList.remove("unread");
+      document.querySelector(".number").innerHTML = 0;
     }
   });
