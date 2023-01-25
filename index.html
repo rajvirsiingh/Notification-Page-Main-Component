@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <div class="tab">
+      <div class="top">
+        <h3>Notifications</h3>
+        <p class="number">3</p>
+        <button id="read">Mark all as read</button>
+      </div>
+      <div class="content">
+        <div class="notification unread">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="/assets/images/avatar-mark-webber.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name">Mark Webber </span>reacted to your recent
+                  post
+                  <a href="#" class="important-msg">
+                    My first tournament today!
+                  </a>
+                  <i class="fa-solid fa-circle"></i><br /><span class="time"
+                    >1m ago</span
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="notification unread">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="assets/images/avatar-angela-gray.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name"> Angela Gray </span>followed you
+                  <i class="fa-solid fa-circle"></i><br /><span class="time"
+                    >5m ago</span
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="notification unread">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="assets/images/avatar-jacob-thompson.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name">Jacob Thompson</span> has joined your group
+                  <a href="#" class="cc"> Chess Club </a>
+
+                  <i class="fa-solid fa-circle"></i><br /><span class="time"
+                    >1 day ago</span
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="notification">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="assets/images/avatar-rizky-hasanuddin.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name"> Rizky Hasanuddin</span> sent you a private
+                  message <br /><span class="time"> 5 days ago</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <p class="msg">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
+        <div class="notification">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="assets/images/avatar-kimberly-smith.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name"> Kimberly Smith </span>commented on your
+                  picture
+                  <br />
+                  <span class="time"> 1 week ago</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <img src="assets/images/image-chess.webp" alt="" class="my-img" />
+        </div>
+        <div class="notification">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="assets/images/avatar-nathan-peterson.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name"> Nathan Peterson</span> reacted to your
+                  recent post
+                  <span class="important-msg">
+                    5 end-game strategies to increase your win rate </span
+                  ><br />
+                  <span class="time"> 2 weeks ago</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="notification">
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="assets/images/avatar-anna-kim.webp"
+                  class="profile"
+                  alt=""
+                />
+              </td>
+              <td>
+                <p>
+                  <span class="name">Anna Kim</span> left the group
+                  <a href="#" class="cc"> Chess Club </a><br />
+                  <span class="time"> 2 weeks ago</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rajvir Singh</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

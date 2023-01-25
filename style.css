@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(210, 60%, 98%);
+  font-size: 16px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.content {
+  margin: 0 auto;
+}
+.tab {
+  width: 55%;
+  margin: 25px auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px 35px;
+  border-radius: 15px;
+}
+.name {
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+}
+.time {
+  font-size: small;
+}
+td > p {
+  display: inline-block;
+  color: hsl(219, 14%, 63%);
+  position: relative;
+  margin-left: 15px;
+}
+.notification {
+  padding: 10px;
+  margin: 20px auto;
+}
+img {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  margin-top: 12px;
+}
+.top > h3,
+.top {
+  display: inline;
+  width: auto;
+}
+.top > button {
+  background-color: white;
+  border-style: none;
+  color: hsl(219, 14%, 63%);
+  font-size: small;
+  display: inline;
+  float: right;
+  position: relative;
+  margin-top: 1px;
+}
+.unread {
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+}
+p.msg {
+  margin-left: 45px;
+  border: 1px solid hsl(219, 14%, 63%);
+  padding: 15px;
+  border-radius: 5px;
+  color: hsl(219, 14%, 63%);
+}
+.cc {
+  font-weight: 800;
+  color: hsl(219, 85%, 26%);
+}
+.important-msg {
+  font-weight: 800;
+  color: hsl(219, 14%, 63%);
+}
+
+.msg:hover {
+  background-color: hsl(210, 60%, 98%);
+  border-style: none;
+}
+.name:hover,
+.important-msg:hover {
+  color: hsl(219, 85%, 26%);
+}
+a {
+  text-decoration: none;
+}
+i {
+  color: red;
+}
+.my-img {
+  float: right;
+  position: relative;
+  margin-top: -70px;
+}
+.number {
+  display: inline;
+  margin: 5px;
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 450px) {
+  .body {
+    background-color: white;
+  }
+  .tab {
+    width: 80%;
+    margin: 0;
+  }
+  .notification {
+    width: 90%;
+  }
+
+  .notification > p {
+    float: inline-start;
+  }
+}
